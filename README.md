@@ -8,12 +8,23 @@ Many sport fans are looking for a method to support their favorite athletes by t
 The main metric in use for this project is the prediction accuracy value of our model on the outcome of UFC fights as well as the cross validation score of our grid search. We are aiming to produce a more accurate prediction than the provided odds in the dataset without using them.
 
 ## Files & Instructions
+
+### Files
 - UFC-Fight-Prediction.ipynb
   - Main jupyter notebook project that cleans and preprocesses data, implements a Random Forest model, evaluates and provides takeaways
 - ufc-master.csv
   - This file contains all UFC fight data that was used in the model training and prediction process
 - upcoming.csv
   - Upcoming UFC fights as of the latest iteration of this dataset, motivation for a follow-up on this project is to apply the model in upcoming UFC fights
+- requirements.txt
+  - File that contains all required libraries to install before this script can be run
+
+### Instructions
+- Ensure that Python 3.8+ is installed in environment
+- Run the command below in this repository context to install all required dependencies to run this notebook successfully
+```python
+pip install -r requirements.txt
+```
 
 ## Blog Post
 This repository comes with an accompanying blog post, you can check it out [here](https://medium.com/@brandonrao123/i-out-predicted-ufc-oddsmakers-by-21-4b337aa9fbde).
